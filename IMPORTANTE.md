@@ -15,6 +15,7 @@ Ahora si, lo importante. Para que todas las funciones del laboratorio operen de 
    elegir "kathara/quagga" y guardar.
 
 3. dhcp - para este servicio lo que hice fue extender la imagen de kathara utilizando esta cadena de comandos:
+
 docker pull kathara/quagga
 
 docker run -tid --name quagga_dhcp kathara/quagga
@@ -30,4 +31,5 @@ docker commit quagga_dhcp kathara/quagga_dhcp
 docker rm -f quagga_dhcp
 
 Es importante que se mantenga el mismo nombre o no iniciara debido a que esta aclarado en lab.conf que "router c" iniciara con la imagen por defecto de kathara/quagga_dhcp
+
 5. apache - apt-get install apache2
