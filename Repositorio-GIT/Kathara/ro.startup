@@ -1,0 +1,26 @@
+#!/bin/bash
+
+ip addr add 192.168.9.126/25 dev eth0
+ip addr add 192.168.50.85/30 dev eth1
+ip addr add 192.168.50.77/30 dev eth2
+ip addr add 192.168.50.81/30 dev eth3
+ip addr add 192.168.50.34/30 dev eth4
+
+# Configurar MTU y activar interfaces
+ip link set eth0 mtu 1500
+ip link set eth1 mtu 1500
+ip link set eth2 mtu 1500
+ip link set eth3 mtu 1500
+ip link set eth4 mtu 1500
+ip link set eth0 up
+ip link set eth1 up
+ip link set eth2 up
+ip link set eth3 up
+ip link set eth4 up
+# Habilitar IP forwarding
+echo 1 > /proc/sys/net/ipv4/ip_forward
+
+# Rutas estaticas
+bash /hostlab/ro/rutas.conf
+
+systemctl start quagga

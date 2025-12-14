@@ -1,0 +1,5 @@
+ip addr add 172.18.0.1/15 dev eth0
+ip link set eth0 mtu 1500
+ip link set eth0 up
+
+ip route add default via 172.19.255.254
