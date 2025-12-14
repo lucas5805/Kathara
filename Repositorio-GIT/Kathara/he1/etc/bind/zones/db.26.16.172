@@ -1,0 +1,15 @@
+$TTL 86400
+@       IN      SOA     ns.rosas.izo. admin.rosas.izo. (
+                        2025100802
+                        3600
+                        1800
+                        604800
+                        86400 )
+        IN      NS      ns.rosas.izo.
+
+; 172.16.26.1 - hl
+1       IN      PTR     hl1.rosas.izo.
+
+; 172.16.26.254 - rl
+254     IN      PTR     rl.rosas.izo.
+254     IN      PTR     rl0.rosas.izo.

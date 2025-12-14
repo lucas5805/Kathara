@@ -1,0 +1,47 @@
+// Zona directa
+zone "rosas.izo" {
+    type master;
+    file "/etc/bind/zones/db.rosas.izo";
+};
+
+// Zona inversa para 192.168.10.0/25
+zone "10.168.192.in-addr.arpa" {
+    type master;
+    file "/etc/bind/zones/db.10.168.192";
+};
+
+// Zona inversa para 172.16.16.0/21 (172.16.16.0 - 172.16.23.255)
+zone "16.16.172.in-addr.arpa" {
+    type master;
+    file "/etc/bind/zones/db.16.16.172";
+};
+
+// Zona inversa para 10.1.0.0/18 (10.1.0.0 - 10.1.63.255)
+zone "1.10.in-addr.arpa" {
+    type master;
+    file "/etc/bind/zones/db.1.10";
+};
+
+// Zona inversa para 192.168.3.0/29
+zone "3.168.192.in-addr.arpa" {
+    type master;
+    file "/etc/bind/zones/db.3.168.192";
+};
+
+// Zona inversa para 10.2.0.0/22 (10.2.0.0 - 10.2.3.255)
+zone "2.10.in-addr.arpa" {
+    type master;
+    file "/etc/bind/zones/db.2.10";
+};
+
+// Zona inversa para 172.16.24.0/23 (172.16.24.0 - 172.16.25.255)
+zone "24.16.172.in-addr.arpa" {
+    type master;
+    file "/etc/bind/zones/db.24.16.172";
+};
+
+// Zona inversa para 192.168.4.0/26
+zone "4.168.192.in-addr.arpa" {
+    type master;
+    file "/etc/bind/zones/db.4.168.192";
+};

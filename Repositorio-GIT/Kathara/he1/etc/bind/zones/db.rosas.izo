@@ -1,0 +1,125 @@
+$TTL 86400
+@       IN      SOA     ns.rosas.izo. admin.rosas.izo. (
+                        2025100802
+                        3600
+                        1800
+                        604800
+                        86400 )
+@       IN      NS      ns.rosas.izo.
+
+; Name server
+ns      IN      A       192.168.3.9
+
+; Hosts
+ha1      IN      A       192.168.10.1
+hb1      IN      A       172.16.16.1
+hc1      IN      A       10.1.0.2
+hc2      IN      A       10.1.0.3
+hd1      IN      A       192.168.3.1
+he1      IN      A       192.168.3.9
+hf1      IN      A       10.2.0.1
+hg1      IN      A       172.16.24.1
+hh1      IN      A       192.168.4.1
+hi1      IN      A       192.168.4.65
+hj1      IN      A       192.168.6.1
+hk1      IN      A       10.3.0.1
+hl1      IN      A       172.16.26.1
+hm1      IN      A       192.168.7.1
+hn1      IN      A       192.168.8.1
+ho1      IN      A       192.168.9.1
+hp1      IN      A       172.16.0.1
+hq1      IN      A       172.18.0.1
+hr1      IN      A       192.168.32.1
+
+; Router ra and interfaces
+ra      IN      A       192.168.10.126
+ra0     IN      A       192.168.10.126
+ra1     IN      A       192.168.50.1
+ra2     IN      A       192.168.50.9 
+ra3     IN      A       192.168.50.5
+; Router rb and interfaces
+rb      IN      A       172.16.23.254
+rb0     IN      A       172.16.23.254
+rb1     IN      A       192.168.50.2
+rb2     IN      A       192.168.50.13
+rb3     IN      A       192.168.50.17
+; Router rc and interfaces
+rc      IN      A       10.1.63.254  
+rc0     IN      A       10.1.63.254
+rc1     IN      A       192.168.50.21
+rc2     IN      A       192.168.50.29
+rc3     IN      A       192.168.50.25
+; Router rd and interfaces
+rd      IN      A       192.168.3.6
+rd0     IN      A       192.168.3.6
+rd1     IN      A       192.168.50.22
+rd2     IN      A       192.168.50.33
+rd3     IN      A       192.168.50.37
+; Router re and interfaces
+re      IN      A       192.168.3.10
+re0     IN      A       192.168.3.10
+re1     IN      A       192.168.50.41
+re2     IN      A       192.168.50.45
+re3     IN      A       192.168.50.57
+re4     IN      A       192.168.50.49
+re5     IN      A       192.168.50.53
+re6     IN      A       172.16.27.2
+; Router rf and interfaces
+rf      IN      A       10.2.3.254
+rf0     IN      A       10.2.3.254
+rf1     IN      A       192.168.50.6
+rf2     IN      A       192.168.50.61 
+; Router rg and interfaces
+rg      IN      A       172.16.25.254
+rg0     IN      A       172.16.25.254
+rg1     IN      A       192.168.50.10
+rg2     IN      A       192.168.50.42 
+; Router rhi and interfaces
+rhi0     IN      A       192.168.4.62
+rhi1     IN      A       192.168.4.126
+rhi2     IN      A       192.168.50.46
+rhi3     IN      A       192.168.50.65  
+; Router rj and interfaces
+rj      IN      A        192.168.6.14
+rj0     IN      A        192.168.50.66
+rj1     IN      A        192.168.50.14
+rj2     IN      A        192.168.50.73
+rj3     IN      A        192.168.50.69
+; Router rk and interfaces
+rk      IN      A        10.3.31.254
+rk0     IN      A        10.3.31.254
+rk1     IN      A        192.168.50.74
+rk2     IN      A        192.168.50.18
+; Router rl and interfaces
+rl      IN      A        172.16.26.254
+rl0     IN      A        172.16.26.254
+rl1     IN      A        192.168.50.62
+rl2     IN      A        192.168.50.26 
+; Router rm and interfaces
+rm      IN      A        192.168.7.62
+rm0     IN      A        192.168.7.62 
+rm1     IN      A        192.168.50.30
+rm2     IN      A        192.168.50.50
+; Router rn and interfaces
+rn      IN      A        192.168.8.14
+rn0     IN      A        192.168.8.14
+rn1     IN      A        192.168.50.54
+rn2     IN      A        192.168.50.86
+; Router ro and interfaces
+ro      IN      A        192.168.9.126
+ro0     IN      A        192.168.9.126
+ro1     IN      A        192.168.50.85
+ro2     IN      A        192.168.50.77
+ro3     IN      A        192.168.50.81
+ro4     IN      A        192.168.50.34
+; Router rpq and interfaces
+rpq0     IN      A       172.16.1.254 
+rpq1     IN      A       172.19.255.254
+rpq2     IN      A       192.168.50.70
+rpq3     IN      A       192.168.50.58
+rpq4     IN      A       192.168.50.78
+; Router rr and interfaces
+rr      IN      A        192.168.47.254
+rr0     IN      A        192.168.47.254
+rr1     IN      A        192.168.50.82
+rr2     IN      A        192.168.50.38

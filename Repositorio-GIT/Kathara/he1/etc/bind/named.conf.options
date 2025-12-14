@@ -1,0 +1,23 @@
+options {
+    directory "/var/cache/bind";
+
+    // Escuchar en 127.0.0.1 y 192.168.3.9
+    listen-on { 127.0.0.1; 192.168.3.9; };
+    listen-on-v6 { none; };
+
+    // Permitir consultas desde cualquier lugar
+    allow-query { any; };
+
+
+    //si se necesita recursión para resolver otros dominios:
+    recursion yes;
+    allow-recursion { 192.168.3.8/30; 192.168.50.0/24; 127.0.0.1; };
+
+    forwarders {
+        8.8.8.8;        // Google DNS
+        8.8.4.4;        // Google DNS secundario
+        1.1.1.1;        // Cloudflare DNS
+    };
+
+    dnssec-validation auto;
+};

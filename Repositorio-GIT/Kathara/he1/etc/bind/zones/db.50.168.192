@@ -1,0 +1,54 @@
+$TTL 86400
+@       IN      SOA     ns.rosas.izo. admin.rosas.izo. (
+                        2025100802
+                        3600
+                        1800
+                        604800
+                        86400 )
+        IN      NS      ns.rosas.izo.
+
+; Interfaces de routers
+1       IN      PTR     ra1.rosas.izo.
+2       IN      PTR     rb1.rosas.izo.
+5       IN      PTR     ra3.rosas.izo.
+6       IN      PTR     rf1.rosas.izo.
+9       IN      PTR     ra2.rosas.izo.
+10      IN      PTR     rg1.rosas.izo.
+13      IN      PTR     rb2.rosas.izo.
+14      IN      PTR     rj1.rosas.izo.
+17      IN      PTR     rb3.rosas.izo.
+18      IN      PTR     rk2.rosas.izo.
+21      IN      PTR     rc1.rosas.izo.
+22      IN      PTR     rd1.rosas.izo.
+25      IN      PTR     rc3.rosas.izo.
+26      IN      PTR     rl2.rosas.izo.
+29      IN      PTR     rc2.rosas.izo.
+30      IN      PTR     rm1.rosas.izo.
+33      IN      PTR     rd2.rosas.izo.
+34      IN      PTR     ro4.rosas.izo.
+37      IN      PTR     rd3.rosas.izo.
+38      IN      PTR     rr2.rosas.izo.
+41      IN      PTR     re1.rosas.izo.
+42      IN      PTR     rg2.rosas.izo.
+45      IN      PTR     re2.rosas.izo.
+46      IN      PTR     rhi2.rosas.izo.
+49      IN      PTR     re4.rosas.izo.
+50      IN      PTR     rm2.rosas.izo.
+53      IN      PTR     re5.rosas.izo.
+54      IN      PTR     rn1.rosas.izo.
+57      IN      PTR     re3.rosas.izo.
+58      IN      PTR     rpq3.rosas.izo.
+61      IN      PTR     rf2.rosas.izo.
+62      IN      PTR     rl1.rosas.izo.
+65      IN      PTR     rhi3.rosas.izo.
+66      IN      PTR     rj0.rosas.izo.
+69      IN      PTR     rj3.rosas.izo.
+70      IN      PTR     rpq2.rosas.izo.
+73      IN      PTR     rj2.rosas.izo.
+74      IN      PTR     rk1.rosas.izo.
+77      IN      PTR     ro2.rosas.izo.
+78      IN      PTR     rpq4.rosas.izo.
+81      IN      PTR     ro3.rosas.izo.
+82      IN      PTR     rr1.rosas.izo.
+85      IN      PTR     ro1.rosas.izo.
+86      IN      PTR     rn2.rosas.izo.
